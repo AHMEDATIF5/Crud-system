@@ -1,0 +1,50 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <div class="w-50 shadow mx-auto p-5 my-5">
+    <h1 class="mb-4">CRUD SYSTEM</h1>
+
+    <label>Product Name:</label>
+    <input type="text" id="Product-name" class="form-control mb-2">
+    <label>Product Category:</label>
+    <input type="text" id="Product-category" class="form-control mb-2">
+    <label>Product price:</label>
+    <input type="text" id="Product-price" class="form-control mb-2">
+    <label>Product Desc:</label>
+    <textarea id="Product-desc" class="form-control mb-4" rows="4"></textarea>
+
+    <button id="btn" class="btn btn-outline-primary">add Product</button>
+  </div>
+
+  <input type="text" id="product-search" class="form-control w-50 mx-auto mb-4" placeholder="Search... (name,category or price)">
+
+  <table class="table table-striped w-75 mx-auto">
+    <thead>
+      <th>index</th>
+      <th>Name</th>
+      <th>Category</th>
+      <th>Price</th>
+      <th>Desc</th>
+      <th>Update</th>
+      <th>Delete</th>
+    </thead>
+    <tbody id="tbody">
+
+    </tbody>
+
+  </table>
+
+
+
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
